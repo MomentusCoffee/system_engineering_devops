@@ -1,0 +1,3 @@
+#!/bin/bash
+# Move the file petty from /tmp/ to /tmp/shell_basics
+mv /tmp/petty /tmp/shell_basics

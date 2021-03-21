@@ -1,0 +1,4 @@
+#!/bin/bash
+# A script that creates the directories welcome/, welcome/to/ and welcome/to/shell_basics in the current directory
+# You are only allowed to use two spaces in your script
+mkdir -p welcome/to/shell_basics

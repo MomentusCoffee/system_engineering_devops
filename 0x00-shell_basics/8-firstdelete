@@ -1,0 +1,3 @@
+#!/bin/bash
+# Delete the file petty
+rm /tmp/shell_basics/petty

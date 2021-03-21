@@ -1,0 +1,3 @@
+#!/bin/bash
+# Delete the directory shell_basics that is in the /tmp directory
+rmdir /tmp/shell_basics
