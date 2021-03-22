@@ -1,0 +1,4 @@
+#!/bin/bash
+# A script that creates a directory called shell_basics
+# with permissions 751 in the working directory
+mkdir -m 751 shell_basics

@@ -1,0 +1,3 @@
+#!/bin/bash
+# A script that changes your user ID to rimi
+su rimi

@@ -1,0 +1,3 @@
+#!/bin/bash
+# A script that changes the group owner to rimi for the file hello
+chgrp rimi hello

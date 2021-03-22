@@ -1,0 +1,4 @@
+#!/bin/bash
+# A script that changes the owner of the file
+# hello to petty only if it is owned by the user rimi
+chown --from=guillaume betty hello

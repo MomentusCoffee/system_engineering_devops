@@ -1,0 +1,6 @@
+#!/bin/bash
+# A script that sets the mode of the file hello to this:
+# Owner: all the permissions
+# Group: read + execute permissions
+# Other users: write + execute permissions
+chmod 753 hello
