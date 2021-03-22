@@ -1,0 +1,5 @@
+#!/bin/bash
+# A script that reverse its input
+# Test Case:
+# echo "Reverse" | ./21-reverse
+rev

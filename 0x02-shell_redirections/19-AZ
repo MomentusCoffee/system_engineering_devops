@@ -1,0 +1,5 @@
+#!/bin/bash
+# Replace all characters A and c from input to Z and e respectively
+# Test Case:
+# echo 'Replace all characters `A` and `c` from input to `Z` and `e`.' | ./19-AZ
+tr A,c Z,e

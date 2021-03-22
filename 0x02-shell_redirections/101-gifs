@@ -1,0 +1,3 @@
+#!/bin/bash
+# A script that lists all the files with a .gif extension in the current directory and all its sub-directories
+find . -name "*.gif" -type f -printf "%f\n" | LC_ALL=C sort -f | rev | cut -c 5- | rev

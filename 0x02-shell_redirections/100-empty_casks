@@ -1,0 +1,3 @@
+#!/bin/bash
+# A command that finds all empty files and directories in the current directory and all sub-directories
+find . -empty -printf "%f\n"

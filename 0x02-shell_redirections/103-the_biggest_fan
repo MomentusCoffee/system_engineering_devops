@@ -1,0 +1,7 @@
+#!/bin/bash
+# A script that parses web servers logs in TSV format
+# as input and displays the 11 hosts or IP addresses
+# which did the most requests
+# Test Case:
+# ./103-the_biggest_fan < nasa_19950801.tsv
+tail -n +2 | cut -f1 | sort | uniq -c | sort -nr | head -11 | cut -c 9-

@@ -1,0 +1,3 @@
+#!/bin/bash
+# A shell script that creates a file named exactly \*\\'"Shell Lessons"\'\\*$\?\*\*\*\*\*:) containing the text Shell Lessons
+echo "Shell Lessons" > \\*\\\\\'\""Shell Lessons"\"\\\'\\\\*$\\?\\*\\*\\*\\*\\*:\)

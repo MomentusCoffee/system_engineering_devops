@@ -1,0 +1,5 @@
+#!/bin/bash
+# A script that removes all letters c and C from input
+# Test Case:
+# echo Chicago | ./20-hiago
+tr -d c,C
