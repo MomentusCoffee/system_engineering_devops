@@ -1,0 +1,3 @@
+#!/bin/bash
+# A script that creates a new global variable named RIMI with the value Petty
+export RIMI="Petty"

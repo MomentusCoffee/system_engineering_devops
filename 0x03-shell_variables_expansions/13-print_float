@@ -1,0 +1,4 @@
+#!/bin/bash
+# A script that prints a number with two decimal places
+# The number will be stored in the environment variable NUM
+printf "%0.2f\n" $NUM

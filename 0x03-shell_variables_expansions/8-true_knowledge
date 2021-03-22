@@ -1,0 +1,5 @@
+#!/bin/bash
+# a script that prints the result of the
+# addition of 128 with the value stored
+# in the environment variable TRUEKNOWLEDGE
+export TRUEKNOWLEDGE=1209 | echo $((TRUEKNOWLEDGE+128))

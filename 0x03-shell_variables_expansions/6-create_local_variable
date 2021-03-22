@@ -1,0 +1,3 @@
+#!/bin/bash
+# A script that creates a new local variable named Petty with the value Rimi
+PETTY="Rimi"
