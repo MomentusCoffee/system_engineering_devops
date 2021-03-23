@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# A Bash script that creates the file /var/run/shellscript.pid containing its PID,
+# displays To infinity and beyond indefinitely, displays I hate the kill command when
+# receiving a SIGTERM signal, displays Y U no love me?! when receiving a SIGINT signal,
+# and deletes the file /var/run/shellscript.pid and terminate itself when receiving a SIGQUIT or SIGTERM signal
+echo "$$" > /var/run/shellscript.pid
+trap "echo I hate the kill command; rm -rf /var/run/shellscript.pid; exit" SIGTERM SIGQUIT
+trap "echo Y U no love me?!" SIGINT
+while true
+do
+    echo "To infinity and beyond"
+    sleep 2
+done
+exit 1
