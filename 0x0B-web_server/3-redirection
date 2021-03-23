@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# transfers a file from our client to a server
+sudo apt-get update -y
+sudo apt-get install nginx -y
+echo "Shell_Script" | sudo tee /usr/share/nginx/html/index.html
+sudo service nginx start
+ns="location /redirect_me {\nrewrite ^(.*)$ https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;\n}"
+sudo sed -i "30i $ns" /etc/nginx/sites-available/default
+sudo service nginx restart
