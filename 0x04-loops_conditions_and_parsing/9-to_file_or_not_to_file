@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# A Bash script that gives you information about the shell_script file
+if [ -e "shell_script" ]
+then
+    echo "shell_script file exists"
+    if [ ! -s "shell_script" ]
+    then
+	echo "shell_script file is empty"
+    else
+	echo "shell_script file is not empty"
+    fi
+    if [ -f "shell_script" ]
+    then
+	echo "shell_script is a regular file"
+    fi
+else
+    echo "shell_script file does not exist"
+fi
